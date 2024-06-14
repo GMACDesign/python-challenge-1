@@ -62,7 +62,7 @@ print("Welcome to Gavin's food truck. ")
 place_order = True
 while place_order:
     # Ask the customer from which menu category they want to order
-    print("WHat type of food are you hungry for? ")
+    print("What type of food are you hungry for? ")
 
     # Create a variable for the menu item number
     i = 1
