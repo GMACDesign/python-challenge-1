@@ -55,14 +55,14 @@ menu = {
 order = []
 
 # Launch the store and present a greeting to the customer
-print("Welcome to the variety food truck.")
+print("Welcome to Gavin's food truck. ")
 
 # Customers may want to order multiple items, so let's create a continuous
 # loop
 place_order = True
 while place_order:
     # Ask the customer from which menu category they want to order
-    print("From which menu would you like to order? ")
+    print("WHat type of food are you hungry for? ")
 
     # Create a variable for the menu item number
     i = 1
@@ -88,10 +88,10 @@ while place_order:
             # Save the menu category name to a variable
             menu_category_name = menu_items[int(menu_category)]
             # Print out the menu category name they selected
-            print(f"You selected {menu_category_name}")
+            print(f"Alright! Lets check out {menu_category_name}")
 
             # Print out the menu options from the menu_category_name
-            print(f"What {menu_category_name} item would you like to order?")
+            print(f"What {menu_category_name} would you like to order?")
             i = 1
             menu_items = {}
             print("Item # | Item name                | Price")
